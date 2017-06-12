@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=title\ author\ subject
+comment0.target=Card(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment0.text=\r\nCard\ is\ the\ constructor\ here.\r\n@param\ title\ title\ of\ the\ book.\r\n@param\ author\ author\ of\ the\ book.\r\n@param\ subject\ subject\ of\ the\ book.\r\n
+numComments=1

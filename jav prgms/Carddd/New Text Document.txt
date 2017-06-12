@@ -1,0 +1,123 @@
+public void addACard(Card c,int b)
+	{
+			int j,i=b;
+			
+			Card dummy;
+	        	 Title[i]=c;
+	        	 Author[i]=c;
+	        	 Subject[i]=c;
+	
+	        	
+	        	 for(i=0;i<=b;i++)// title sorting
+	        	 {
+	        		 for(j=0;j<=i;j++)
+	        		 {
+	        			if(Title[i].title.compareTo(Title[j].title)<0)
+	        			{
+	        			 dummy=Title[i];
+	        			 Title[i]=Title[j];
+	        			 Title[j]=dummy;
+	        			 
+	        			}
+	        			
+	        		 }
+	        		 
+	        	 }
+	        	 
+		            for(i=0;i<=b;i++)//author sorting
+		       	   {
+		       		 for(j=0;j<=i;j++)
+		       		 {
+		       			if(Author[i].author.compareTo(Author[j].author)<0)
+		       			{
+		       			 dummy=Author[i];
+		       			Author[i]=Author[j];
+		       			Author[j]=dummy;
+		       			 
+		       			}
+		       		 }
+		       		 
+		       	 }
+		            
+		             
+	             for(i=0;i<=b;i++)//subject sorting
+	        	 {
+	        		 for(j=0;j<=i;j++)
+	        		 {
+	        			if(Subject[i].subject.compareTo(Subject[j].subject)<0)
+	        			{
+	        			 dummy=Subject[i];
+	        			 Subject[i]=Subject[j];
+	        			 Subject[j]=dummy;
+	        			 
+	        			}
+	        			
+	        		 }
+	        		 
+	        	 }
+	             
+	        System.out.println(i);
+		
+	}
+
+
+
+  if(i==0)
+       {
+           title[i]=crd;
+           author[i]=crd;
+           subject[i]=crd;
+           i++;
+       }
+       else
+       {
+           for(int a=0;a<=i;a++)
+           {
+               if(crd.titleOfBook.compareToIgnoreCase(title[a].titleOfBook)<0)
+               {
+                   for(int j=i;j>a;j--)
+                   {
+						title[j]=title[j-1];
+				   }
+					title[a]=crd;
+					break;
+               }
+               else if(a+1==i)
+               {
+					title[i]=crd;
+				}
+           }
+           for(int a=0;a<=i;a++)
+           {
+               if(crd.authorOfBook.compareToIgnoreCase(author[a].authorOfBook)<0)
+               {
+                   for(int j=i;j>a;j--)
+					{
+						author[j]=author[j-1];
+					}
+					author[a]=crd;
+					break;
+               }
+               else if(a+1==i)
+				{
+					author[i]=crd;
+				}
+           }
+           for(int a=0;a<=i;a++)
+           {
+               if(crd.subjectOfBook.compareToIgnoreCase(subject[a].subjectOfBook)<0)
+               {
+					for(int j=i;j>a;j--)
+					{
+						subject[j]=subject[j-1];
+					}
+					subject[a]=crd;
+					break;
+               }
+               else if(a+1==i)
+               {
+					subject[i]=crd;
+				}
+           }
+           i++;
+       }

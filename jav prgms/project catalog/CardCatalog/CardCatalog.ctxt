@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=CardCatalog()
+comment0.text=\r\n\r\n
+comment1.params=crd
+comment1.target=void\ addACard(Card)
+comment1.text=\r\naddAcard\ metod\ is\ for\ adding\ the\ cards\ to\ the\ arrays\r\n@param\ crd\ is\ the\ passed\ card.\r\n
+comment2.params=
+comment2.target=void\ printAll()
+comment2.text=\r\nprintAll\ method\ is\ used\ to\ print\ the\ card\ content.\r\n
+comment3.params=
+comment3.target=void\ printTheCatalog()
+comment3.text=\r\nthis\ method\ is\ used\ to\ print\ the\ whole\ catalog.\r\n@param\r\n
+comment4.params=sTitle
+comment4.target=Card[]\ getATitle(java.lang.String)
+comment4.text=\r\nThe\ method\ getATitle\ gives\ the\ book\ details\ based\ upon\ the\ search\ word.\r\n@param\ sTitle\ is\ passed\ to\ the\ method\ \ to\ get\ the\ \r\ndetails\ based\ upon\ the\ search\ word.\r\n@return\ Card[]\ the\ return\ type\ is\ of\ card\ array.\r\n
+comment5.params=sAuthor
+comment5.target=Card[]\ getAnAuthor(java.lang.String)
+comment5.text=\r\ngetAuthor\ method\ displays\ the\ books\ based\ upon\ \r\nthe\ search\ done\ by\ the\ author\ of\ the\ book.\r\n@param\ sAuthor\ \ this\ is\ passed\ to\ the\ method\ to\ search\ by\ the\ word.\r\n@return\ Card[]\ the\ card\ aray\ is\ returned\ .\r\n
+comment6.params=sSubject
+comment6.target=Card[]\ getSubject(java.lang.String)
+comment6.text=\r\ngetSubject\ method\ gives\ the\ book\ details\ based\r\nupon\ the\ search\ done\ by\ subject\ of\ the\ book.\r\n@param\ \ sSubject\ is\ the\ string\ that\ we\ are\ passing\ to\ the\ method.\r\n@return\ \ Card[]\ the\ card\ array\ is\ returned.\r\n
+comment7.params=c
+comment7.target=void\ removeATitle(Card)
+comment7.text=\r\n\ The\ removeATitle\ method\ removes\ the\ book\ u\ selected\ .\r\n@param\ c\ is\ the\ book\ that\ which\ we\ are\ going\ to\ delete.\r\n
+numComments=8

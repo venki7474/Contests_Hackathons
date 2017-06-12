@@ -1,0 +1,42 @@
+
+class Person {
+	private String firstName;
+	private String lastName;
+	private int age;
+	private String gender;
+  Person () {
+	this.firstName = "";
+	this.lastName = "";
+	this.age = 0;
+	this.gender = "";
+	}
+void setAge(int age) { this.age = age;}
+
+void addName(String fname,String lNAme) { 
+	firstName = fname;
+	lastName = lNAme;
+}
+
+int getAge() { return age ;}
+void setGender(String gender) { this.gender = gender;}
+String getGender() { return gender;}
+String getName() { return name;}
+public String toString() {
+	return ("fName: " + firstName + " lName :" + lastName + ", Age : " + this.age + ", Gender :" + this.gender);
+}
+}
+
+public class New5 
+{
+	public static void main(String[] args)
+	{
+		
+		Person s = new Person();
+
+		s.addName("venki", " chotu");
+		s.addName("raj");
+		s.addName("ram");
+		System.out.println(s);
+	}
+}
+

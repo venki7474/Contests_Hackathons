@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Cart()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Cart\r\n
+comment1.params=products\ amount
+comment1.target=void\ addToCart(java.lang.String,\ int)
+comment2.params=product\ amount
+comment2.target=void\ removeFromCart(java.lang.String,\ int)
+comment3.params=
+comment3.target=void\ invoice()
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+numComments=5
