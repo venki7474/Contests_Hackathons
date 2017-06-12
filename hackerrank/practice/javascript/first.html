@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript</title>
+	<script type="text/javascript">
+	function displayInformation() {
+     // var library is defined, use it to print the information
+    alert("venki");
+    for (var p in library){
+        var out = "";
+        if (p.readingStatus is true){
+            out = out + "Already read '"+p.title+"' by "+ p.author;
+            alert(out);
+            // console.log(out);
+        } else {
+            out = out +"You stil need to read "+ p.title + " by "+ p.author;
+            alert(out);
+            console.log(out);
+        }
+    }
+    } 
+
+// tail starts here
+var library = [ 
+    {
+        title: 'Bill Gates',
+        author: 'The Road Ahead',
+        readingStatus: true
+    },
+    {
+        title: 'Steve Jobs',
+        author: 'Walter Isaacson',
+        readingStatus: true
+    },
+    {
+        title: 'Mockingjay: The Final Book of The Hunger Games',
+        author: 'Suzanne Collins',
+        readingStatus: false
+    }
+];
+
+displayInformation();
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>
